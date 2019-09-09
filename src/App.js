@@ -1,23 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { MenuToggle } from './MenuToggle';
 
-function App() {
+
+function App () {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <MenuToggle />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Toggle the icon.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={logo} className="App-logo" alt="logo" />
       </header>
     </div>
   );
