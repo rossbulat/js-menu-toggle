@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { MenuToggle } from './MenuToggle';
+import MenuToggle from './MenuToggle';
 
 
 function App () {
