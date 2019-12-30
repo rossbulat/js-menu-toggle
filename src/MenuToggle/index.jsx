@@ -86,7 +86,7 @@ const ToggleWrapper = styled.span`
   }
 `;
 
-export const MenuToggle = () => {
+const MenuToggle = () => {
 
   const [iconStatus, setIconStatus] = React.useState('default');
 
